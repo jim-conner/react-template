@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 
 function App() {
+  // delete the hook and handleClick
   const [domWriting, setDomWriting] = useState('Nothing Here!');
 
   const handleClick = (e) => {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className='App'>
+      {/* delete lines between the divs */}
       <h2>INSIDE APP COMPONENT</h2>
       <div>
         <button
@@ -31,6 +33,7 @@ function App() {
         </button>
       </div>
       <h3>{domWriting}</h3>
+      {/* delete lines above */}
     </div>
   );
 }
